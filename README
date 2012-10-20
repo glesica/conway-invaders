@@ -1,7 +1,5 @@
-README
-CSCI 441
-Project 1 - Arcade Game
-George Lesica
+Conway Invaders
+"The most awesome crappy space invaders knockoff evar. Fer serious."
 
 Source code is in the src/ directory. There is a makefile there. Nothing should
 be required besides OpenGL and GLUT.
