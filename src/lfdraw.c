@@ -8,7 +8,11 @@
 
 #include <stdio.h>
 #include <math.h>
-#include "GL/glut.h"
+#ifdef __APPLE__
+    #include "GLUT/glut.h"
+#else
+    #include "GL/glut.h"
+#endif
 #include "vector.h"
 #include "lfdraw.h"
 #include "config.h"

@@ -8,7 +8,11 @@
 
 #include <stdio.h>
 #include <assert.h>
-#include "GL/glut.h"
+#ifdef __APPLE__
+    #include "GLUT/glut.h"
+#else
+    #include "GL/glut.h"
+#endif
 #include "bullets.h"
 #include "ship.h"
 #include "vector.h"

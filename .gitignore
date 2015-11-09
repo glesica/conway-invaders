@@ -1,0 +1,4 @@
+*.swp
+*~
+src/invader
+src/invader.dSYM
