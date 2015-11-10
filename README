@@ -3,3 +3,16 @@ Conway Invaders
 
 Source code is in the src/ directory. There is a makefile there. Nothing should
 be required besides OpenGL and GLUT.
+
+Build Instructions
+
+Linux (Debian and similar):
+
+    sudo apt-get install freeglut3-dev
+    cd src
+    make
+
+Mac (must have XCode installed):
+
+    cd src
+    make
