@@ -2,6 +2,8 @@
 
 "The most awesome crappy space invaders knockoff evar. Fer serious."
 
+![Logo](logo.png)
+
 ## Build Instructions
 
 Source code is in the src/ directory. There is a makefile there. Nothing should
